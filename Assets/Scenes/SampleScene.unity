@@ -597,7 +597,7 @@ MonoBehaviour:
   m_text: "\uACE0\uC591\uC774"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6a718b552318546489bc9fc515cb7ba1, type: 2}
-  m_sharedMaterial: {fileID: 6125115238080770843, guid: 6a718b552318546489bc9fc515cb7ba1, type: 2}
+  m_sharedMaterial: {fileID: -8876348022908485876, guid: 6a718b552318546489bc9fc515cb7ba1, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -734,7 +734,7 @@ MonoBehaviour:
   m_text: "\uB2E4\uC74C"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6a718b552318546489bc9fc515cb7ba1, type: 2}
-  m_sharedMaterial: {fileID: 6125115238080770843, guid: 6a718b552318546489bc9fc515cb7ba1, type: 2}
+  m_sharedMaterial: {fileID: -8876348022908485876, guid: 6a718b552318546489bc9fc515cb7ba1, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -917,10 +917,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uC57C\uC639\uC57C\uC639"
+  m_text: "\uC57C\uC639"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6a718b552318546489bc9fc515cb7ba1, type: 2}
-  m_sharedMaterial: {fileID: 6125115238080770843, guid: 6a718b552318546489bc9fc515cb7ba1, type: 2}
+  m_sharedMaterial: {fileID: -8876348022908485876, guid: 6a718b552318546489bc9fc515cb7ba1, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1418,14 +1418,17 @@ MonoBehaviour:
   SpeakerText: {fileID: 602125547}
   DialogueText: {fileID: 864974694}
   NextButton: {fileID: 1267764352}
+  DialoguePanel: {fileID: 2083712536}
+  Character: {fileID: 1112033669}
+  CharacterCanvasGroup: {fileID: 1112033670}
   lines:
-  - speaker: "\uACE0\uC591\uC77C"
-    text: "\uC57C\uC639"
-  - speaker: "\uACE0\uC591\uC77C"
-    text: "\uC57C\uC639\uC57C\uC639"
   - speaker: "\uACE0\uC591\uC774"
+    text: "\uC57C\uC639"
+  - speaker: "\uACE0\uC591\uC774"
+    text: "\uC57C\uC639\uC57C\uC639"
+  - speaker: "\uB098"
     text: "\uC548\uB155"
-  - speaker: "\uACE0\uC591\uC77C"
+  - speaker: "\uACE0\uC591\uC774"
     text: "\uC57C\uC639\uC57C\uC639\uC57C\uC639"
 --- !u!4 &2076884382
 Transform:
